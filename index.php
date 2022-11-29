@@ -57,6 +57,11 @@ $mysqli_result = mysqli_query($con, $sql);
                 Update
                 </a> 
                 </button>
+                <button>
+                <a href=\"create_borrow.php?bookId={$row['id']}\">
+                Borrow
+                </a> 
+                </button>
                 </td>
                 </tr>";
             }
